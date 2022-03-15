@@ -9,6 +9,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppThemePicker_2">
         <activity android:name=".MainActivity"
+            android:exported="true"
             android:label="Month Picker">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
